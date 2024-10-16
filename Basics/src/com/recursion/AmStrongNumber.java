@@ -20,6 +20,7 @@ public class AmStrongNumber {
 			num/=10;
 			count++;
 		}
+		
 		int res = AmStrong(RealNum);
 		if(res==Temp) {
 			System.out.println(Temp + " Is A AmStrong Number");
