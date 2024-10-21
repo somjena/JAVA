@@ -9,6 +9,11 @@ public class FanModule {
 		r.increaseSpeed();
 		r.decreaseSpeed();
 		s.off();
+		Fan f = new Fan();
+		f.on();
+		f.increaseSpeed();
+		f.decreaseSpeed();
+		f.off();
 
 	}
 
