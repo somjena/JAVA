@@ -38,7 +38,7 @@ public class AnimalDriver {
 		BabyDog b1 = new BabyDog();
 		b1.makeSound();
 		Monkey m1 = new Monkey();
-		m1.makeSound();
+		// m1.makeSound();  // Because Monkey is Not A Type of animal
 	}
 	
 
