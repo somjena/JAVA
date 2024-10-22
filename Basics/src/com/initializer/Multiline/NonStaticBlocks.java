@@ -4,8 +4,8 @@ public class NonStaticBlocks {
 	static {
 		System.out.println("Static Block Execution Start  1");
 		NonStaticBlocks n1 = new NonStaticBlocks();
-		
 	}
+	
 	{
 		System.out.println("Non Static 1");
 	}
