@@ -8,8 +8,10 @@ public class Positive_or_Negative {
 		int num = sc.nextInt();
 		if(num<0) {
 			System.out.println(num + " is A Negative Number");
+		}else if (num==0) {
+			System.out.println(num + " is Zero");
 		}else {
-			System.out.println(num + " is a Positive Number");
+			System.out.println(num + " is A Positive Number");
 		}
 		
 	}
