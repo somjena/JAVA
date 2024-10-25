@@ -34,7 +34,9 @@ public class SwiggyUser {
 		Resturant user1 = Resturant.getIntanceof();
 		Resturant user2 = Resturant.getIntanceof();
 		user1.bookFood(20, 4);
-		user2.bookFood(30,20);
+		//user2.bookFood(30,20);
+		System.out.println("Total Item Left ="+user1.TotalFood());
+		
 
 	}
 
