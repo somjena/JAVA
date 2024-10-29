@@ -13,9 +13,9 @@ public class Encoding {
 		char[]arr=s.toCharArray();
 		char[]letter="abcdefghijklmnopqrstuvwxyz".toCharArray();
 		
-		for(int i=0;i<=arr.length;i++) {
+		for(int i=0;i<arr.length;i++) {
 			char c =arr[i];
-			 arr[i] = (char) (((c - 'a' + l) % 26) + 'a');
+			 arr[i] = (char) (((c - 'a' - l) % 26) + 'a');
 		}
 		return new String(arr);
 	}
