@@ -3,7 +3,7 @@ package com.StringPrograms;
 public class Initcap {
 
 	public static void main(String[] args) {
-		System.out.println(convert("Soumitra kumar jena"));
+		System.out.println(convert("priti ranjan ghadei"));
 		
 
 	}
