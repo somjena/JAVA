@@ -1,6 +1,6 @@
 package com.inheritance.Multi_Level;
 
-// Base class
+
 class Person {
     String name;
     int age;
@@ -16,7 +16,7 @@ class Person {
     }
 }
 
-// Derived class (inherits Person)
+
 class Student extends Person {
     String studentId;
 
@@ -26,11 +26,10 @@ class Student extends Person {
 
     public void displayStudentInfo() {
         displayDetails();
-        System.out.println("Student ID: " + studentId);
+        System.out.println("Studentdata ID: " + studentId);
     }
 }
 
-// Derived class (inherits Student)
 class EngineeringStudent extends Student {
     String specialization;
 
@@ -44,7 +43,7 @@ class EngineeringStudent extends Student {
     }
 }
 
-// Main class to test the inheritance
+
 public class MultiLevelInheritanceExample {
     public static void main(String[] args) {
         EngineeringStudent engStudent = new EngineeringStudent();
@@ -53,7 +52,7 @@ public class MultiLevelInheritanceExample {
         engStudent.setStudentId("S12345");
         engStudent.setSpecialization("Computer Science");
 
-        System.out.println("Engineering Student Information:");
+        System.out.println("Engineering Studentdata Information:");
         engStudent.displayEngineeringStudentInfo();
     }
 }
