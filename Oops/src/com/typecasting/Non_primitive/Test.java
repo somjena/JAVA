@@ -1,10 +1,10 @@
 package com.typecasting.Non_primitive;
-class Vehicle{
+class Vehiclex{
 	void ride() {
 		System.out.println("Vehicle Started");
 	}
 }
-class Bike extends Vehicle{
+class Bike extends Vehiclex{
 	void ride() {
 		System.out.println("Bike Started");
 		
@@ -26,7 +26,7 @@ public class Test {
 
 	public static void main(String[] args) {
 	
-		Vehicle v = new cycle();
+		Vehiclex v = new cycle();
 		v.ride();
 		
 		Bike b1 =new cycle();
