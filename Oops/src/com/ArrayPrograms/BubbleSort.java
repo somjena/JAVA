@@ -6,9 +6,11 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		int a[]= {3,9,4,6,5,7,8};
+		System.out.println(a.length);
 		System.out.println(Arrays.toString(a));
 		sort(a);
 		System.out.println(Arrays.toString(a));
+		
 		
 
 	}
