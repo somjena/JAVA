@@ -1,4 +1,4 @@
-package com.Interface;
+package com.Predefined_InterFace;
 
 public class Circle implements Comparable{
 	int radius;
