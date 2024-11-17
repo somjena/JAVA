@@ -1,5 +1,5 @@
 package com.OneDArray;
-
+//Q12
 public class PrintPresentVowel {
 
 	public static void main(String[] args) {
