@@ -21,4 +21,25 @@ public class ArrayList {
 	     a=temp;
 		
 	}
+	public int Size() {
+		return pos;
+	}
+	public Object get(int index) {
+		if(index<=-1||index>=Size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		return a[index];
+	}
+	public String Remove(int index) {
+		if(index<=-1||index>=Size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		for(int i =index+1;i<Size();i++) {
+			a[i-1]=a[i];
+		}
+		pos--;
+		a[pos]=null;
+		return "Successfully Deleted "+a[index];
+		
+	}
 }
