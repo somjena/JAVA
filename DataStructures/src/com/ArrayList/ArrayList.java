@@ -39,7 +39,21 @@ public class ArrayList {
 		}
 		pos--;
 		a[pos]=null;
-		return "Successfully Deleted "+a[index];
+		return "Successfully Deleted "+a[index] +" "+pos;
 		
 	}
+	public Object  AddPlace(int index,Object o) {
+		if(index<=-1||index>=Size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(pos>=a.length)increase();
+		for(int i=Size()-1;i>=index;i--) {
+			a[i+1]=a[i];
+		}
+		a[index]=o;
+		pos++;
+		return "SuccessFully Entered "+o+" in index :-"+index;
+	}
+	
+	
 }
