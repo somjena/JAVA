@@ -1,5 +1,5 @@
 package com.OneDArray;
-
+//Q21
 import java.util.Arrays;
 
 public class SmallestElementofArray {
