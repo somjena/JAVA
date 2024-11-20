@@ -26,6 +26,7 @@ public class NodeImpl {
 		l.Add(30);
 		l.Add(40);
 		l.Add(50);
+		l.Remove(3);
 		l.Display();
 		
 		//System.out.println(l.size());

@@ -40,5 +40,22 @@ public class LinkedList {
 			curr=curr.next;
 		}
 	}
+	
+	public void Remove(int index) {
+		if(index<=-1|| index>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(index==0) {
+			first=first.next;
+			count--;
+			return;
+		}
+		Node curr=first;
+		for(int i=1;i<index;i++) {
+			curr=curr.next;
+		}
+		curr.next=curr.next.next;
+		count--;
 
 }
+	}
