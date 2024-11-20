@@ -20,6 +20,23 @@ public class LinkedList {
 		return "SuccessFully Added to the "+count+" "+o;
 		
 	}
+	public String Add(Object ele,int index) {
+		if(index<=-1||index>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(index==0) {
+			first=new Node(ele,first);
+			count++;
+			return "Created Node at:-"+count+" "+ele;
+		}
+		Node curr=first;
+		for(int i=1;i<size();i++) {
+			curr=curr.next;
+		}
+		curr.next=new Node(ele,curr.next);
+		count++;
+		return "Created Node at:-"+count+" "+ele;
+	}
 	public int size() {
 		return count;
 	}
