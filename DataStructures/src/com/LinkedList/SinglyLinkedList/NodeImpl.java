@@ -26,6 +26,7 @@ public class NodeImpl {
 		l.Add(30);
 		l.Add(40);
 		l.Add(50);
+		l.Add(70, 2);
 	
 		//l.Ree(3);
 		l.Display();

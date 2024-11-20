@@ -30,7 +30,7 @@ public class LinkedList {
 			return "Created Node at:-"+count+" "+ele;
 		}
 		Node curr=first;
-		for(int i=1;i<size();i++) {
+		for(int i=1;i<index;i++) {
 			curr=curr.next;
 		}
 		curr.next=new Node(ele,curr.next);
