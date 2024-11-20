@@ -3,7 +3,8 @@ package com.LinkedList.SinglyLinkedList;
 public class NodeImpl {
 
 	public static void main(String[] args) {
-		/*Node first =null;
+		//Node first =null;
+		/*
 		first =new Node(10);
 		first.next=new Node(20);
 		first.next.next=new Node(30);
@@ -20,9 +21,19 @@ public class NodeImpl {
 		
 */
 		LinkedList l = new LinkedList();
-		System.out.println(l.Add(10));
-		System.out.println(l.size());
-		System.out.println(l.get(0));
+		l.Add(10);
+		l.Add(20);
+		l.Add(30);
+		l.Add(40);
+		l.Add(50);
+		l.Display();
+		
+		//System.out.println(l.size());
+		//System.out.println(l.get(5));
+		
+		
+		
+		
 	}
 
 }

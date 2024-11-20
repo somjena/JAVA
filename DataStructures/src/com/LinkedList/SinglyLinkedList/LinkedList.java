@@ -33,5 +33,12 @@ public class LinkedList {
 		}
 		return curr.o;
 	}
+	public void Display() {
+		Node curr = first;
+		for(int i=0;i<size();i++) {
+			System.out.println(curr.o);
+			curr=curr.next;
+		}
+	}
 
 }
