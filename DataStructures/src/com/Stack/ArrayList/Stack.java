@@ -35,5 +35,16 @@ public class Stack {
 		}
 		return a[size()-1];
 	}
+	
+	public Object pop() {
+		Object temp =a[size()-1];
+		
+		Object []cons= new Object[a.length-1] ; 
+		System.arraycopy(a, 0, cons, 0, a.length-1);
+		a=cons;
+		pos--;
+			return temp;
+		}
+	}
 
-}
+
