@@ -8,8 +8,15 @@ public class StackImplementation {
 		l.push(10);
 		l.push(20);
 		l.push(30);
-		l.push(30);
+		l.push(40);
+		l.get();
+		System.out.println("--------------------------Before-----------------------------");
+		System.out.println(l.pop());
+		System.out.println("---------------------------pop--------------------------------");
 		System.out.println(l.Size());
+		System.out.println(l.peek());
+		System.out.println("---------------------------After-------------------------------");
+		l.get();
 
 	}
 
