@@ -18,5 +18,8 @@ public class LinkedList {
 		count++;
 		
 	}
+	public int Size() {
+		return count;
+	}
 
 }
