@@ -1,27 +1,29 @@
 package com.OneDArray;
-//Q.25
+
 public class SumofeachelementUptoSingleDigit {
 
-	public static void main(String[] args) {
-		int []a= {23,55,57,93,10,1};
-		
-		
-		for(int i=0;i<a.length;i++) {
-			int n=a[i];
-			int Sum=0;
-			while(n!=0) {
-			int temp =n%10;
-			Sum+=temp;
-			a[i]=Sum;
-			n/=10;
-			}
-			
-			
-		}
-		for(int n:a) {
-			System.out.println(n);
-		}
+    public static void main(String[] args) {
+        int[] a = {23, 55, 57, 93, 10, 1};
 
-	}
+        for (int i = 0; i < a.length; i++) {
+            int n = a[i];
 
+            // Loop until we get a single-digit number
+            while (n > 9) {
+                int sum = 0;
+                while (n != 0) {
+                    sum += n % 10; // Add the last digit
+                    n /= 10;       // Remove the last digit
+                }
+                n = sum; // Update n to the computed sum
+            }
+
+            a[i] = n; // Update array with the single-digit result
+        }
+
+        // Print the updated array
+        for (int n : a) {
+            System.out.println(n);
+        }
+    }
 }
