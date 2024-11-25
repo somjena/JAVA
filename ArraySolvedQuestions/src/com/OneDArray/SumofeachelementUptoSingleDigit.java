@@ -1,5 +1,5 @@
 package com.OneDArray;
-
+//Q.25
 public class SumofeachelementUptoSingleDigit {
 
     public static void main(String[] args) {
