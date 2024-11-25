@@ -1,5 +1,5 @@
 package com.OneDArray;
-//Q.26
+//Q.27
 public class RemoveTheDuplicateElement {
 
 	public static void main(String[] args) {
