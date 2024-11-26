@@ -7,7 +7,7 @@ public class Hashset {
 	
 	
 	public boolean add(Object key) {
-		int index=key.hashCode();
+		int index=key.hashCode()%a.length;
 		index=Math.abs(index);
 	
 	if(a[index]==null) {
