@@ -12,13 +12,15 @@ public class Student {
 	public String toString() {
 		return "StudentName= "+name+"____ mark="+mark;
 	}
-	public int hasCode() {
+	@Override
+	public int hashCode() {
 		return mark;
 	}
-	
+	@Override
 	public boolean equals(Object e) {
-		if(! (e instanceof Student))return false;
+		if(!(e instanceof Student))return false;
 		Student s = (Student)e;
+		return name.equals(s.name)&& mark==s.mark;
 		
 	}
 
