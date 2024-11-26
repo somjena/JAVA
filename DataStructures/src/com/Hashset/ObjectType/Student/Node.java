@@ -1,4 +1,4 @@
-package com.Hashset.ObjectType;
+package com.Hashset.ObjectType.Student;
 
 public class Node {
 	Object key;

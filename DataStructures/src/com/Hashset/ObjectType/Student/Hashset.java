@@ -1,4 +1,4 @@
-package com.Hashset.ObjectType;
+package com.Hashset.ObjectType.Student;
 
 public class Hashset {
 	private Node[]a = new Node[10];
