@@ -12,8 +12,7 @@ public class User {
 		h.Add(40);
 		
 		h.traverse();
-		
-		
+		System.out.println(h.size());		
 
 	}
 
