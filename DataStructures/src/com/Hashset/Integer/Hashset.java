@@ -40,5 +40,8 @@ public class Hashset {
 			}
 		}
 	}
+	public boolean isEmpty() {
+		return count==0;
+	}
 
 }
