@@ -29,5 +29,16 @@ public class Hashset {
 	public int size() {
 		return count;
 	}
+	
+	
+	public void traverse() {
+		for(int i=0;i<a.length;i++) {
+			Node curr=a[i];
+			while(curr!=null) {
+				System.out.println(curr.key+" ");
+				curr=curr.next;
+			}
+		}
+	}
 
 }
