@@ -24,5 +24,10 @@ public class Hashset {
 		count++;
 		return true;
 	}
+	
+	
+	public int size() {
+		return count;
+	}
 
 }
