@@ -6,9 +6,9 @@ public class User {
 		Student s1 =new Student("Soumitra", 42);
 		Student s2 =new Student("Soumitra", 42);
 		Student s3 =new Student("Shrabana", 92);
-		System.out.println(s1.hasCode());
-		System.out.println(s2.hasCode());
-		System.out.println(s3.hasCode());
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s3.hashCode());
 		
 		Hashset h= new Hashset();
 		System.out.println(h.add(s1));
