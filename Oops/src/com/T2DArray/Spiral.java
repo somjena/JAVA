@@ -4,7 +4,7 @@ package com.T2DArray;
 public class Spiral {
 
 	public static void main(String[] args) {
-		int[][] a = spiral(7);
+		int[][] a = spiral(5);
 		
 		for(int[] temp:a) {
 			for(int n:temp) {
