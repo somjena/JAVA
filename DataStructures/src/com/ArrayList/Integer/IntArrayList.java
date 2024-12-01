@@ -29,5 +29,12 @@ public class IntArrayList {
 	public int Size() {
 		return pos;
 	}
+	
+	public int get(int index) {
+		if(index<=-1|| index>=pos) {
+			throw new ArrayIndexOutOfBoundsException();
+		}
+		return a[index];
+	}
 
 }
