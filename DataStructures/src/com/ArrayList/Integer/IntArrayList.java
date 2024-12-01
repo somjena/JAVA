@@ -25,5 +25,9 @@ public class IntArrayList {
 	public boolean isEmpty() {
 		return pos==0;
 	}
+	
+	public int Size() {
+		return pos;
+	}
 
 }
