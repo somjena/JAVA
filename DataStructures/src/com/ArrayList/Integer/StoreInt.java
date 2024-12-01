@@ -8,6 +8,8 @@ public class StoreInt {
 		System.out.println(i.Add(10));
 		System.out.println(i.Add(10));
 		System.out.println(i.Add(10));
+		System.out.println(i.isEmpty());
+		System.out.println(i.Size());
 
 	}
 
