@@ -11,6 +11,7 @@ public class StoreInt {
 		System.out.println(i.isEmpty());
 		System.out.println(i.Size());
 		System.out.println(i.get(3));
+		System.out.println(i.Remove(4));
 
 	}
 
