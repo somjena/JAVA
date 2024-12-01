@@ -1,4 +1,4 @@
-package com.ArrayList;
+package com.ArrayList.ObjectType;
 
 public class ArrayList {
 	 private Object []a;
