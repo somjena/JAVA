@@ -36,5 +36,17 @@ public class IntArrayList {
 		}
 		return a[index];
 	}
+	public String Remove(int index) {
+		if(index<=-1||index>=Size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		for(int i =index+1;i<Size();i++) {
+			a[i-1]=a[i];
+		}
+		pos--;
+		a[pos]=0;
+		return "Successfully Deleted "+a[index] +" "+pos;
+		
+	}
 
 }
