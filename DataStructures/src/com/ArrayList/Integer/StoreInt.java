@@ -8,10 +8,13 @@ public class StoreInt {
 		System.out.println(i.Add(20));
 		System.out.println(i.Add(30));
 		System.out.println(i.Add(40));
-		System.out.println(i.isEmpty());
+		//System.out.println(i.isEmpty());
 		System.out.println(i.Size());
-		System.out.println(i.get(3));
-		System.out.println(i.Remove(4));
+		System.out.println(i.get(0));
+		System.out.println(i.Remove(0));
+		System.out.println(i.get(0));
+		System.out.println(i.Remove(0));
+		System.out.println(i.get(0));
 
 	}
 
