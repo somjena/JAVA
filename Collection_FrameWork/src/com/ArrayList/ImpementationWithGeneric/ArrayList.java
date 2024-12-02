@@ -30,6 +30,12 @@ public class ArrayList<E> {
 	public boolean isEmpty() {
 		return pos==0;
 	}
+	public E get(int index) {
+		if(pos==0) {
+			throw new IndexOutOfBoundsException();
+		}
+		return (E)a[index];
+	}
 	
 
 }
