@@ -36,7 +36,7 @@ public class IntArrayList {
 		}
 		return a[index];
 	}
-	public String Remove(int index) {
+	public boolean Remove(int index) {
 		if(index<=-1||index>=Size()) {
 			throw new IndexOutOfBoundsException();
 		}
@@ -45,7 +45,7 @@ public class IntArrayList {
 		}
 		pos--;
 		a[pos]=0;
-		return "Successfully Deleted "+a[index] +" "+pos;
+		return true;
 		
 	}
 
