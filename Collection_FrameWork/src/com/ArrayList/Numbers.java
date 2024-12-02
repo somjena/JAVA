@@ -9,9 +9,12 @@ public class Numbers {
 		c.add(10);
 		c.add(20);
 		c.add(30);
+		//c.add("Som");
 		System.out.println(c.add(40));
 		System.out.println(c.get(0));
-		System.out.println(c.iterator());
+		c.remove(0);
+		System.out.println(c.get(0));
+		
 		
 		
 
