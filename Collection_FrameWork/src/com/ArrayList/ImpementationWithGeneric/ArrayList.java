@@ -24,6 +24,12 @@ public class ArrayList<E> {
 		a=temp;
 		
 	}
+	public int size() {
+		return pos;
+	}
+	public boolean isEmpty() {
+		return pos==0;
+	}
 	
 
 }
