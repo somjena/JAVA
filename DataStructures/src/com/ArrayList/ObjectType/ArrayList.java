@@ -9,11 +9,10 @@ public class ArrayList {
 		pos =0;
 	}
 	
-	public String Add(Object o) {
+	public boolean Add(Object o) {
 		if(pos>=a.length) increase();
 		a[pos++]=o;
-		
-		return "Added Successfully " + o +" "+pos;
+		return true;
 	}
 	public void increase() {
 		Object temp[]= new Object[a.length+3];
@@ -30,7 +29,7 @@ public class ArrayList {
 		}
 		return a[index];
 	}
-	public String Remove(int index) {
+	public boolean Remove(int index) {
 		if(index<=-1||index>=Size()) {
 			throw new IndexOutOfBoundsException();
 		}
@@ -39,10 +38,10 @@ public class ArrayList {
 		}
 		pos--;
 		a[pos]=null;
-		return "Successfully Deleted "+a[index] +" "+pos;
+		return true;
 		
 	}
-	public Object  AddPlace(int index,Object o) {
+	public Object  Add(int index,Object o) {
 		if(index<=-1||index>=Size()) {
 			throw new IndexOutOfBoundsException();
 		}
