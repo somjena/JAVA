@@ -6,15 +6,19 @@ public class LinkedList <E>{
 	
 	
 	
-	public void add(E e) {
+	public boolean add(E e) {
 		if(first==null) {
 			first =new Node(e);
+			count++;
+			return true;
 		}
 		Node curr=first;
 		while(curr.next!=null) {
 			curr=curr.next;
 		}
-		
+		curr.next=new Node(e);
+		count++;
+		return true;
 	}
 
 }
