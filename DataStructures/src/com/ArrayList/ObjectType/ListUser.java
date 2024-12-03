@@ -14,7 +14,7 @@ public class ListUser {
 		}
 		
 		
-		System.out.println(a.AddPlace(0, "Shrabana Rout"));
+		System.out.println(a.Add(0, "Shrabana Rout"));
 		System.out.println("-----------------------------------------");
 		
 		
