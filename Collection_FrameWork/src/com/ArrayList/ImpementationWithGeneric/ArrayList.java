@@ -18,11 +18,12 @@ public class ArrayList<E> {
 		return true;
 	}
 	public boolean add(E e,int index) {
-		if(index<=-1||index>=a.length) {
+		if(index<=-1||index>=size()) {
 			throw new IndexOutOfBoundsException("hello");
 		}
+		if(pos>=a.length)increase();
 		for(int i=size()-1;i>=index;i--) {
-			a[i-1]=a[i];
+			a[i+1]=a[i];
 		}
 		a[index]=e;
 		pos++;
@@ -46,6 +47,13 @@ public class ArrayList<E> {
 			throw new IndexOutOfBoundsException();
 		}
 		return (E)a[index];
+	}
+	
+	
+	public void traverse() {
+		for(int i=0;i<size();i++) {
+			System.out.println(a[i]);
+		}
 	}
 	
 
