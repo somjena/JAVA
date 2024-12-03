@@ -17,6 +17,17 @@ public class ArrayList<E> {
 		pos++;
 		return true;
 	}
+	public boolean add(E e,int index) {
+		if(index<=-1||index>=a.length) {
+			throw new IndexOutOfBoundsException("hello");
+		}
+		for(int i=size()-1;i>=index;i--) {
+			a[i-1]=a[i];
+		}
+		a[index]=e;
+		pos++;
+		return true;
+	}
 
 	public void increase() {
 		Object []temp=new Object[a.length+3];
