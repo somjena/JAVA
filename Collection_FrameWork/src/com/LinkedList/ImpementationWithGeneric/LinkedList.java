@@ -1,5 +1,6 @@
 package com.LinkedList.ImpementationWithGeneric;
 
+
 public class LinkedList <E>{
 	private Node first;
 	private int count;
@@ -27,15 +28,24 @@ public class LinkedList <E>{
 	public boolean isEmpty() {
 		return count==0;
 	}
-	public Object remove(int index) {
-		if(first==null) {
-			return null;
+	
+	public void Remove(int index) {
+		if(index<=-1|| index>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(index==0) {
+			first=first.next;
+			count--;
+			return;
 		}
 		Node curr=first;
-		while(curr!=null) {
-			
-			
+		for(int i=1;i<index;i++) {
+			curr=curr.next;
 		}
+		curr.next=curr.next.next;
+		count--;
+
+
 	}
 
 }
