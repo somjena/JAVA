@@ -18,7 +18,6 @@ public class LinkedList {
 		curr.next=new Node(o);
 		count++;
 		return true;
-		
 	}
 	public boolean Add(Object ele,int index) {
 		if(index<=-1||index>=size()) {
@@ -57,7 +56,6 @@ public class LinkedList {
 			curr=curr.next;
 		}
 	}
-	
 	public void Remove(int index) {
 		if(index<=-1|| index>=size()) {
 			throw new IndexOutOfBoundsException();
@@ -73,6 +71,5 @@ public class LinkedList {
 		}
 		curr.next=curr.next.next;
 		count--;
-
 }
 	}
