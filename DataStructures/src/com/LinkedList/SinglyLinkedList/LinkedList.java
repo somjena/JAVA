@@ -5,11 +5,11 @@ public class LinkedList {
 	private int count;
 	
 	
-	public String Add(Object o) {
+	public boolean Add(Object o) {
 		if(first==null) {
 			first=new Node(o);
 			count++;
-			return "SuccessFully Added  "+o+" At pos :- "+1;
+			return true;
 		}
 		Node curr=first;
 		while(curr.next!=null) {
@@ -17,7 +17,7 @@ public class LinkedList {
 		}
 		curr.next=new Node(o);
 		count++;
-		return "SuccessFully Added to the "+count+" "+o;
+		return true;
 		
 	}
 	public String Add(Object ele,int index) {
