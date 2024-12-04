@@ -27,5 +27,15 @@ public class LinkedList <E>{
 	public boolean isEmpty() {
 		return count==0;
 	}
+	public Object remove(int index) {
+		if(first==null) {
+			return null;
+		}
+		Node curr=first;
+		while(curr!=null) {
+			
+			
+		}
+	}
 
 }
