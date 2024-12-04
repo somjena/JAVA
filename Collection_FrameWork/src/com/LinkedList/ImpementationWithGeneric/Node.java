@@ -1,6 +1,6 @@
 package com.LinkedList.ImpementationWithGeneric;
 
-public class Node<E> {
+public class Node{
 	Object ele;
 	Node next;
 	
