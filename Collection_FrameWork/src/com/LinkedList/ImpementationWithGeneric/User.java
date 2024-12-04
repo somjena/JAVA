@@ -7,7 +7,10 @@ public class User {
 		i.add(10);
 		i.add(20);
 		i.add(30);
-		System.out.println(i.size());
+		//System.out.println(i.size());
+		//i.Remove(0);
+		//System.out.println(i.size());
+		i.traverse();
 
 	}
 
