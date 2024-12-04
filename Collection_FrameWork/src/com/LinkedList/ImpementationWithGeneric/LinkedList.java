@@ -20,5 +20,9 @@ public class LinkedList <E>{
 		count++;
 		return true;
 	}
+	
+	public int size() {
+		return count;
+	}
 
 }
