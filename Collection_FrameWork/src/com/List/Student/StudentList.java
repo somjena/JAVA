@@ -21,6 +21,7 @@ public class StudentList {
 		System.out.println(l);
 		Collections.sort(l, new NameComparator());
 		System.out.println(l);
+		System.out.println(l.get(0).getClass().getSimpleName());
 
 	}
 
