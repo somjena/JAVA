@@ -1,4 +1,4 @@
-package com.LinkedList.ImpementationWithGeneric;
+package com.generic.LinkedList;
 
 public class User {
 

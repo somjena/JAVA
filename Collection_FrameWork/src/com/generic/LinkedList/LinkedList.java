@@ -1,5 +1,4 @@
-package com.LinkedList.ImpementationWithGeneric;
-
+package com.generic.LinkedList;
 
 public class LinkedList <E>{
 	private Node first;

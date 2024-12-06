@@ -1,4 +1,4 @@
-package com.ArrayList.ImpementationWithGeneric;
+package com.generic.ArrayList;
 
 public class ArrayList<E> {
 	private Object []a;
