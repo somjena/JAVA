@@ -3,8 +3,6 @@ package com.Queue.Numbers;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import com.PriorityQueue.Numbers.EvenPrior;
-
 public class SerialNumbers {
 
 	public static void main(String[] args) {
