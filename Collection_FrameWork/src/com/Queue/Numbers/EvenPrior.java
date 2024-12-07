@@ -1,4 +1,4 @@
-package com.PriorityQueue.Numbers;
+package com.Queue.Numbers;
 
 import java.util.Comparator;
 
