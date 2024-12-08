@@ -1,6 +1,6 @@
 package com.PriorityQueue.Cars;
 
-public class Car implements Comparable<Car>{
+public class Car {
 	String name;
 	Engine e;
 	
@@ -14,9 +14,5 @@ public class Car implements Comparable<Car>{
 		return "name="+name+" "+e;
 	}
 	
-	@Override
-	public int compareTo(Car o) {
-		return o.e.cc-e.cc;
-	}
 
 }
