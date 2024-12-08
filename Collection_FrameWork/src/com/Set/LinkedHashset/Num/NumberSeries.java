@@ -13,6 +13,7 @@ public class NumberSeries {
 		s.add(2);
 		s.add(3);
 		s.add(4);
+		s.add(4);
 		Iterator<Integer> i = s.iterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
