@@ -12,7 +12,7 @@ public class StoreCar {
 		Car c4 = new Car("BMW", new Engine(1200));
 		
 		
-		Set s = new LinkedHashSet();
+		Set<Car> s = new LinkedHashSet<Car>();
 		s.add(c1);
 		s.add(c2);
 		s.add(c3);
