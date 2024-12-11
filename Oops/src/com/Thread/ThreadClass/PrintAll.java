@@ -1,4 +1,4 @@
-package com.Thread.RunnableInterface;
+package com.Thread.ThreadClass;
 
 class Alphabet extends Thread{
 	@Override
