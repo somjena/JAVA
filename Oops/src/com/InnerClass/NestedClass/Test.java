@@ -1,18 +1,25 @@
 package com.InnerClass.NestedClass;
 
 class A{
-	class B{
+	
+	static int i =10;
+	static class B{
 		void m1() {
-			System.out.println("Nonstatic A.B M1()");
+			System.out.println("M1 in Inner B");
+			System.out.println(i);
 		}
 	}
+	
 }
+
 public class Test {
+
 	public static void main(String[] args) {
-		A a = new A();
-		A.B  a1= a.new B();
-		a1.m1();
+		A.B b1 = new A.B() ;
+		b1.m1();
 		
+		
+
 	}
 
 }

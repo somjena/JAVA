@@ -16,7 +16,7 @@ public class UsernameValidator {
     }
 
     public static void main(String[] args) {
-        // Test cases
+        // Nostatic cases
         String[] usernames = {"user1", "john_doe", "1username", "user", "very_long_username_exceeding_20"};
 
         for (String username : usernames) {
