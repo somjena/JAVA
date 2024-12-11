@@ -1,4 +1,4 @@
-package com.InnerClass.NestedClass;
+package com.InnerClass.StaticInnerClass;
 
 class A{
 	
