@@ -5,6 +5,7 @@ class R implements Runnable{
 	public void run() {
 		for(char i ='A';i<='Z';i++) {
 			System.out.println(i);
+			try{Thread.sleep(500);}catch(Exception e) {}
 		}
 		
 	}
