@@ -22,7 +22,7 @@ class PrintNum extends Thread{
 			System.out.println(i);
 			try{Thread.sleep(500);} catch(Exception e) {};
 		}
-		System.out.println("Ended Created Threat");
+		System.out.println();
 	}
 }
 
