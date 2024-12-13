@@ -19,6 +19,21 @@ public class Car {
 	}
 	
 		
+public Driver driver() {
+		
+		return new drv();
+	}
 	
+	
+	class drv implements Driver{
+
+		@Override
+		public void drive() {
+			start();
+			acc();
+			stop();
+			
+		}
+	}
 
 }
