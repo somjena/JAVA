@@ -17,7 +17,7 @@ public class Emp implements Comparable{
 	@Override
 	public int compareTo(Object o) {
 	Emp e = (Emp)o;
-		return this.age-e.age;
+		return e.age-this.age;
 	}
 
 }

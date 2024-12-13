@@ -7,7 +7,7 @@ public class AddEmp {
 
 	public static void main(String[] args) {
 		Emp e1 = new Emp("Som", 22);
-		Emp e2 = new Emp("Som", 22);
+		Emp e2 = new Emp("Ankita", 24);
 		
 		
 		
