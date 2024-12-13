@@ -5,12 +5,14 @@ public class Account {
 	
 	
 	
-	void deposit(int amt) {
+	synchronized void deposit(int amt) {
 		balance+=amt;
+		System.out.println("SuccessFully Deposited "+amt);
+		
 	}
 	
 	
-    void display() {
-    	System.out.println(balance);
+   synchronized void display() {
+    	System.out.println("balance -"+balance);
     }
 }
