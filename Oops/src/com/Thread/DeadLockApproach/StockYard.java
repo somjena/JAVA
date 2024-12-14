@@ -2,8 +2,19 @@ package com.Thread.DeadLockApproach;
 
 public class StockYard {
 	int items;
+	private static StockYard obj=null;
 	
 	private StockYard() {
+		
+	}
+	
+	
+	
+	
+	public static StockYard getinstance() {
+		if(obj==null)obj=new StockYard();
+		return obj;
+		
 		
 	}
 	
