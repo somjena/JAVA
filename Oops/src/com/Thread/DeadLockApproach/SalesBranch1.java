@@ -7,7 +7,7 @@ public class SalesBranch1 {
 		
 		new ConsumerThread(30);
 		try{Thread.sleep(500);}catch(Exception e) {}
-		new UpdateThread(30);
+		new UpdateThread(50);
 
 	}
 

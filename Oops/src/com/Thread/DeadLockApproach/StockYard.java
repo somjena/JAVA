@@ -25,7 +25,7 @@ public class StockYard {
 	synchronized public void consume(int items) {
 		System.out.println("Required Items"+items);
 		while(this.items<items) {
-			System.out.println("Waiting for Update");
+			System.out.println("Less Stock ! Waiting for Update ");
 			try{Thread.sleep(500);}catch(Exception e) {}
 			
 		}
