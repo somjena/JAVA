@@ -18,6 +18,7 @@ public class StockYard {
 		this.items+=items;
 		System.out.println("items Updated to "+items);
 		
+		
 	}
 	
 	
@@ -27,7 +28,11 @@ public class StockYard {
 		while(this.items<items) {
 			System.out.println("Less Stock ! Waiting for Update ");
 			try{Thread.sleep(500);}catch(Exception e) {}
-			
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
 		
 		this.items-=items;
