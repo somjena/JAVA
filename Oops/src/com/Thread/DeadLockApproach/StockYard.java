@@ -17,6 +17,7 @@ public class StockYard {
 	synchronized public void update(int items) {
 		this.items+=items;
 		System.out.println("items Updated to "+items);
+		notify(); // notify Method Implements When the update complete it will notify the wait state method
 		
 		
 	}
