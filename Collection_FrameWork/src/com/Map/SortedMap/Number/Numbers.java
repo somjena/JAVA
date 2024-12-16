@@ -1,4 +1,4 @@
-package com.Map.SortedMap;
+package com.Map.SortedMap.Number;
 
 import java.util.Map;
 import java.util.TreeMap;
