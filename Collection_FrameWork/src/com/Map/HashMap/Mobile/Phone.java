@@ -23,7 +23,7 @@ public class Phone {
 
 	@Override
 	public String toString() {
-		return "Phone [rom=" + rom + ", ram=" + ram + ", color=" + color + ", s=" + s + "]";
+		return "Phone [rom=" + rom + ", ram=" + ram + ", color=" + color + ", sim=" + s + "]";
 	}
 	
 	
