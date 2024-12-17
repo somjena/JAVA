@@ -8,7 +8,7 @@ public class Sim {
 	}
 	
 	public String toString() {
-		return "Sim"+sim;
+		return ""+sim;
 	}
 
 }
