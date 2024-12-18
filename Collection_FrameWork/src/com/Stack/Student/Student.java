@@ -7,9 +7,9 @@ public class Student {
 	
 	
 	public Student(String n,int r,double m) {
-		this.name=n;
-		this.rollno=r;
-		this.mark=m;
+		name=n;
+		rollno=r;
+		mark=m;
 	}
 	@Override
 	public String toString() {
