@@ -15,7 +15,7 @@ public class StoreStudent {
 		s.push(s2);
 		s.push(s3);
 		s.push(s4);
-		//System.out.println(s);
+		System.out.println(s);
 		System.out.println("Peek Object"+s.peek());
 		System.out.println(s.isEmpty());
 		
