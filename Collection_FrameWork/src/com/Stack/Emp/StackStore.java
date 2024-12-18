@@ -1,6 +1,6 @@
 package com.Stack.Emp;
 
-import java.util.Collections;
+
 import java.util.Stack;
 
 public class StackStore {
@@ -12,6 +12,7 @@ public class StackStore {
 		
 		
 		Stack <Emp> s1 = new Stack<Emp>();
+		
 		s1.push(e1);
 		s1.push(e2);
 		s1.push(e3);
