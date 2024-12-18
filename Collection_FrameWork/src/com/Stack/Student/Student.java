@@ -6,10 +6,10 @@ public class Student {
 	double mark;
 	
 	
-	public Student(String name,int rollno,double mark) {
-		this.name=name;
-		this.rollno=rollno;
-		this.mark=mark;
+	public Student(String n,int r,double m) {
+		this.name=n;
+		this.rollno=r;
+		this.mark=m;
 	}
 	@Override
 	public String toString() {
