@@ -7,7 +7,7 @@ public class CreateFolder {
 
 	public static void main(String[] args) throws IOException {
 		File f = new File("E:\\Soumitra");
-		if(f.mkdir()) System.out.println(f.getClass().getSimpleName() +" Created a File");
+		if(f.mkdir()) System.out.println(f.getClass().getSimpleName() +" Created By Java");
 		
 		
 
