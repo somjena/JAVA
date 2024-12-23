@@ -10,6 +10,14 @@ public class Car {
 		this.carno=carno;
 		this.e=e;
 	}
+
+	@Override
+	public String toString() {
+		return "Car [name=" + name + ", carno=" + carno + ", e=" + e + "]";
+	}
+	
+	
+	
 	
 	
 
