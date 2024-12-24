@@ -29,6 +29,7 @@ public class StoreEmp {
 				a.addLast(emp);
 			
 		}
+		System.out.println(a);
 		
 		
 		
