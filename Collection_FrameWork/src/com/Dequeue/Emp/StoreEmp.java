@@ -1,6 +1,9 @@
 package com.Dequeue.Emp;
 
 import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
 
 public class StoreEmp {
 
@@ -11,13 +14,25 @@ public class StoreEmp {
 		Emp e4 = new Emp("Debashish", 4, 27, 26240.96);
 		Emp e5 = new Emp("Elon", 5, 22, 17546.06);
 		
+		Predicate<Emp> e = emp->emp.sal>=24240;
+		int firstcount =0;
+		
+
 		ArrayDeque<Emp> a = new ArrayDeque<Emp>();
-		a.add(e1);
-		a.add(e2);
-		a.add(e3);
-		a.add(e4);
-		a.add(e5);
-		System.out.println(a);
+		
+		List<Emp> list = Arrays.asList(e1,e2,e3,e4,e5);
+		for(Emp emp : list) {
+			if(e.test(emp)) {
+				firstcount++;
+			a.addFirst(emp);	
+			}else
+				a.addLast(emp);
+			
+		}
+		
+		
+		
+		
 
 	}
 
