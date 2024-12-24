@@ -2,6 +2,7 @@ package com.Dequeue;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class EvenNumbers {
@@ -11,11 +12,16 @@ public class EvenNumbers {
 		for(int n :list) {
 			if(n%2==0) {
 				a.addFirst(n);
-			}
+			}else
 			a.addLast(n);
 		}
 		
 	
+		Iterator<Integer> itr=a.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 
 }
