@@ -1,4 +1,4 @@
-package com.Dequeue;
+package com.Dequeue.Numbers;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -15,12 +15,14 @@ public class EvenNumbers {
 			}else
 			a.addLast(n);
 		}
+		System.out.println(a.getFirst());
+		System.out.println(a.getLast());
 		
 	
 		Iterator<Integer> itr=a.iterator();
 		
 		while(itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.print(itr.next()+"\t");
 		}
 	}
 
