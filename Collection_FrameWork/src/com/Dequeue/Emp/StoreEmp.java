@@ -15,7 +15,7 @@ public class StoreEmp {
 		Emp e5 = new Emp("Elon", 5, 22, 17546.06);
 		
 		Predicate<Emp> e = emp->emp.sal>=24240;
-		int firstcount =0;
+		
 		
 
 		ArrayDeque<Emp> a = new ArrayDeque<Emp>();
@@ -23,7 +23,6 @@ public class StoreEmp {
 		List<Emp> list = Arrays.asList(e1,e2,e3,e4,e5);
 		for(Emp emp : list) {
 			if(e.test(emp)) {
-				firstcount++;
 			a.addFirst(emp);	
 			}else
 				a.addLast(emp);
