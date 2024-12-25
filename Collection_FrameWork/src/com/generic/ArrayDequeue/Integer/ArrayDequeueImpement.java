@@ -20,6 +20,8 @@ public class ArrayDequeueImpement {
 		ad.add(140);
 		System.out.println(ad.isEmpty());
 		System.out.println(ad.Size());
+		System.out.println(ad.removefirst());
+		
 	}
 
 }
