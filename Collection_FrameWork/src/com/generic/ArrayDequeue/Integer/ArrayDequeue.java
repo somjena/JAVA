@@ -1,8 +1,8 @@
 package com.generic.ArrayDequeue.Integer;
 
 public class ArrayDequeue <E>{
-	Object[] a;
-	int pos;
+	private Object[] a;
+	private int pos;
 	
 	
 	public ArrayDequeue() {
@@ -10,12 +10,6 @@ public class ArrayDequeue <E>{
 		pos=0;
 	}
 	
-	public int Size() {
-		return pos;
-	}
-	public boolean isEmpty() {
-		return pos==0;
-	}
 	
 	public boolean add(E ele) {
 		if(pos>=a.length)increase();
@@ -23,11 +17,24 @@ public class ArrayDequeue <E>{
 		return true;
 	}
 
+	//Resizeable Array
 	private void increase() {
 		Object []temp=new Object[a.length+5];
 		System.arraycopy(a, 0, temp, 0, a.length);
 		a=temp;
 		
 	}
+	
+	//Size Method
+	public int Size() {
+		return pos;
+	}
+	//isEmpty Method
+	
+	public boolean isEmpty() {
+		return pos==0;
+	}
+	
+	
 
 }
