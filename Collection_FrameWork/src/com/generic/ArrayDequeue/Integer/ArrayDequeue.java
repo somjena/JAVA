@@ -46,4 +46,9 @@ public class ArrayDequeue <E>{
 		return true;
 		
 	}
+	public E peekfirst() {
+		return (E) a[0];
+	}
+	
+	
 }
