@@ -12,6 +12,8 @@ public class Numbers {
 		q.add(50);
 		q.add(40);
 		q.add(30);
+		q.remove();
+	
 		
 		
 		while(!q.isEmpty()) {
