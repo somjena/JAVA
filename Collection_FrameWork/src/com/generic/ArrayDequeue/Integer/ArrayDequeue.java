@@ -10,7 +10,7 @@ public class ArrayDequeue <E>{
 		pos=0;
 	}
 	
-	
+	//add Method
 	public boolean add(E ele) {
 		if(pos>=a.length)increase();
 		a[pos++]=ele;
@@ -34,7 +34,16 @@ public class ArrayDequeue <E>{
 	public boolean isEmpty() {
 		return pos==0;
 	}
-	
-	
-
+	//removefirst Method
+	public boolean removefirst() {
+		if(isEmpty()) {
+			throw new IndexOutOfBoundsException();
+		}
+		for(int i=0;i<pos-1;i++) {
+			a[i]=a[i+1];
+		}
+		a[pos--]=null;
+		return true;
+		
+	}
 }
