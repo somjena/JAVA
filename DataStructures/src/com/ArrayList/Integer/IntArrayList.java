@@ -36,6 +36,7 @@ public class IntArrayList {
 		}
 		return a[index];
 	}
+	
 	public boolean Remove(int index) {
 		if(index<=-1||index>=Size()) {
 			throw new IndexOutOfBoundsException();
