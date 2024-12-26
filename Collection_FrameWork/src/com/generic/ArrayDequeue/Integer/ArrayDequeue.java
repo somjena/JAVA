@@ -58,11 +58,18 @@ public class ArrayDequeue <E>{
 	}
 	public E peekfirst() {
 		return (E) a[0];
-	}
+	}		
 	
 	public E peeklast() {
 		return (E) a[Size()];
 	}
+	
+	public void display() {
+		for(int i =0;i<a.length;i++) {
+			System.out.println(a[i]);
+		}
+	}
+	
 	
 	
 }
