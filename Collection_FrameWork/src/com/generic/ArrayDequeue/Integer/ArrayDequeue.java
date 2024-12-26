@@ -46,6 +46,16 @@ public class ArrayDequeue <E>{
 		return true;
 		
 	}
+	public boolean removelast() {
+		if(isEmpty()) {
+			throw new IndexOutOfBoundsException();
+		}
+		
+		a[pos--]=null;
+		
+		return true;
+		
+	}
 	public E peekfirst() {
 		return (E) a[0];
 	}
