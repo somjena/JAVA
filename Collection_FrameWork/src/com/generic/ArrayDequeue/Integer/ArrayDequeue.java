@@ -50,5 +50,9 @@ public class ArrayDequeue <E>{
 		return (E) a[0];
 	}
 	
+	public E peeklast() {
+		return (E) a[Size()];
+	}
+	
 	
 }
