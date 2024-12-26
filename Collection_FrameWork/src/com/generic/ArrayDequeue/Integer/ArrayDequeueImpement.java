@@ -23,8 +23,11 @@ public class ArrayDequeueImpement {
 		System.out.println(ad.removefirst());
 		System.out.println(ad.peekfirst());
 		System.out.println(ad.peeklast());*/
-		System.out.println(ad.removelast());
-		System.out.println(ad.peeklast());
+		//System.out.println(ad.removefirst());
+		//System.out.println(ad.removefirst());
+		ad.removelast();
+		
+		//System.out.println(ad.peeklast());
 		ad.display();
 			}
 
