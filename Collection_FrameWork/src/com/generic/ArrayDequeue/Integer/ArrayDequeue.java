@@ -46,7 +46,7 @@ public class ArrayDequeue <E>{
 		return true;
 		
 	}
-	public boolean removelast() {
+	public boolean poplast() {
 		if(isEmpty()) {
 			throw new IndexOutOfBoundsException();
 		}
