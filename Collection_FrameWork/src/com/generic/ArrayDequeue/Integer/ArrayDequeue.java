@@ -42,7 +42,7 @@ public class ArrayDequeue <E>{
 		for(int i=0;i<pos-1;i++) {
 			a[i]=a[i+1];
 		}
-		a[pos--]=null;
+		a[--pos]=null;
 		return true;
 		
 	}
@@ -51,7 +51,7 @@ public class ArrayDequeue <E>{
 			throw new IndexOutOfBoundsException();
 		}
 		
-		a[pos--]=null;
+		a[--pos]=null;
 		
 		return true;
 		
@@ -65,7 +65,7 @@ public class ArrayDequeue <E>{
 	}
 	
 	public void display() {
-		for(int i =0;i<a.length;i++) {
+		for(int i =0;i<pos;i++) {
 			System.out.println(a[i]);
 		}
 	}
