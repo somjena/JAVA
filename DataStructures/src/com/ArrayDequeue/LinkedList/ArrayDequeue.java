@@ -27,6 +27,10 @@ public class ArrayDequeue {
 	public boolean isEmpty() {
 		return count==0;
 	}
+	
+	public Node PeekFirst() {
+		return first;
+	}
 
 	
 
