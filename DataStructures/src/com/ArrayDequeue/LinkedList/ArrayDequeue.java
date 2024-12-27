@@ -20,6 +20,9 @@ public class ArrayDequeue {
 		count++;
 
 	}
+	public int size() {
+		return count;
+	}
 
 	
 
