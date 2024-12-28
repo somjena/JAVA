@@ -10,8 +10,10 @@ public class ArrayDequeueImpl {
 		a.push(40);
 		//a.popFirst();
 		//System.out.println(a.size());
-		System.out.println(a.popFirst());
-		a.display();
+		//System.out.println(a.popFirst());
+		//a.display();
+		System.out.println(a.popLast());
+		System.out.println(a.size());
 
 	}
 
