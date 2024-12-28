@@ -50,6 +50,20 @@ public class ArrayDequeue {
 		count--;
 		return temp;
 	}
+	public Object popLast() {
+		Node curr = first;
+		while(curr.next!=null) {
+			curr=curr.next;
+		}
+		count--;
+		return curr.ele;
+	}
+	
+	
+	
+	
+	
+	
 	
 	public void display() {
 		Node temp =first;
