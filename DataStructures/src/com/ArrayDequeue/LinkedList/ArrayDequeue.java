@@ -28,8 +28,17 @@ public class ArrayDequeue {
 		return count==0;
 	}
 	
-	public Node PeekFirst() {
+	public Node peekFirst() {
 		return first;
+	}
+	public Node peekLast() {
+		Node temp =first;
+		while(temp!=null) {
+			first = first.next;
+			
+		}
+		return first;
+	
 	}
 
 	
