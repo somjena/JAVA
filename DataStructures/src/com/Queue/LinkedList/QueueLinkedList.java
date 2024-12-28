@@ -10,7 +10,7 @@ public class QueueLinkedList {
 		//System.out.println(l.peek());
 		l.poll();
 		//System.out.println(l.Size());
-		l.get();
+	    l.get();
 
 	}
 
