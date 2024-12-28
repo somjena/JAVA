@@ -59,12 +59,7 @@ public class ArrayDequeue {
 		return curr.ele;
 	}
 	
-	
-	
-	
-	
-	
-	
+	//Display All the Element
 	public void display() {
 		Node temp =first;
 		while(temp!=null) {
