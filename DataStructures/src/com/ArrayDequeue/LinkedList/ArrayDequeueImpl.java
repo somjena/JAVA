@@ -11,6 +11,7 @@ public class ArrayDequeueImpl {
 		//a.popFirst();
 		//System.out.println(a.size());
 		System.out.println(a.popFirst());
+		a.display();
 
 	}
 
