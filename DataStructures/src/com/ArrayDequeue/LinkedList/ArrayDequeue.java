@@ -32,12 +32,15 @@ public class ArrayDequeue {
 		return first;
 	}
 	public Node peekLast() {
-		Node temp =first;
-		while(temp!=null) {
-			first = first.next;
-			
-		}
-		return first;
+	    if (first == null) { // Check if the list is empty
+	        return null;
+	    }
+	    Node temp = first;
+	    while (temp.next != null) { // Traverse until the last node
+	        temp = temp.next;
+	    }
+	    return temp; // Return the last node
+	
 	
 	}
 
