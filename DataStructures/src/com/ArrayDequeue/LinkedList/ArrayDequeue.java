@@ -50,6 +50,14 @@ public class ArrayDequeue {
 		count--;
 		return temp;
 	}
+	
+	public void display() {
+		Node temp =first;
+		while(temp!=null) {
+			System.out.println(temp.ele);
+			temp=temp.next;
+		}
+	}
 
 	
 
