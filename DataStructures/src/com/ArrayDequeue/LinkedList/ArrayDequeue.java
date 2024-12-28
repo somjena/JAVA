@@ -43,6 +43,13 @@ public class ArrayDequeue {
 	
 	
 	}
+	
+	public Object popFirst() {
+		Object temp = first.ele;
+		first=first.next;
+		count--;
+		return temp;
+	}
 
 	
 
