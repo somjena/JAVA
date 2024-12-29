@@ -11,6 +11,7 @@ public class User {
 		
 		
 		System.out.println(l.size());
+		System.out.println(l.isEmpty());
 
 	}
 
