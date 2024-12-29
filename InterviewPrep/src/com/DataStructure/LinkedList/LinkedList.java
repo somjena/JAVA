@@ -31,5 +31,6 @@ public class LinkedList <E>{
 	public boolean isEmpty() {
 		return count==0;
 	}
+	
 
 }
