@@ -4,7 +4,7 @@ public class LinkedList <E>{
 	private Node first;
 	private int count;
 	
-	
+	//Add Method
 	public boolean add(E ele) {
 		
 		if(first==null) {
@@ -22,9 +22,14 @@ public class LinkedList <E>{
 		count++;
 		return true;
 	}
-	
+	//Size Method
 	public int size() {
 		return count;
+	}
+	
+	// isEmpty Method
+	public boolean isEmpty() {
+		return count==0;
 	}
 
 }
