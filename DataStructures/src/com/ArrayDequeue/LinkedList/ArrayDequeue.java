@@ -40,10 +40,7 @@ public class ArrayDequeue {
 	        temp = temp.next;
 	    }
 	    return temp; // Return the last node
-	
-	
 	}
-	
 	public Object popFirst() {
 		Object temp = first.ele;
 		first=first.next;
@@ -58,7 +55,6 @@ public class ArrayDequeue {
 		count--;
 		return curr.ele;
 	}
-	
 	//Display All the Element
 	public void display() {
 		Node temp =first;
