@@ -5,7 +5,7 @@ public class LinkedList <E>{
 	private int count;
 	
 	
-	public boolean add(Object ele) {
+	public boolean add(E ele) {
 		
 		if(first==null) {
 		first = new Node(ele);
@@ -21,6 +21,10 @@ public class LinkedList <E>{
 		curr.next=new Node(ele);
 		count++;
 		return true;
+	}
+	
+	public int size() {
+		return count;
 	}
 
 }
