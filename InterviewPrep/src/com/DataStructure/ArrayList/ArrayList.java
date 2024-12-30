@@ -25,6 +25,10 @@ public class ArrayList <E>{
 		public boolean isEmpty() {
 			return pos==0;
 		}
+	//size method 
+		public int size() {
+			return pos;
+		}
 		
 
   
