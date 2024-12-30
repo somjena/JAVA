@@ -29,7 +29,18 @@ public class ArrayList <E>{
 		public int size() {
 			return pos;
 		}
-		
+	//remove Method
+		public boolean Remove(int index) {
+			if(index<=-1||index>=size()) {
+				throw new IndexOutOfBoundsException();
+			}
+			for(int i =index+1;i<size();i++) {
+				a[i-1]=a[i];
+			}
+			pos--;
+			a[pos]=null;
+			return true;
+			
+		}
 
-  
 }
