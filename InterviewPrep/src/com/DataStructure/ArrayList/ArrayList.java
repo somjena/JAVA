@@ -13,5 +13,12 @@ public class ArrayList <E>{
 	
 	
 	//add Method
-	
+	public boolean add(E ele) {
+		if(pos>=a.length)increase();
+		a[pos++]=ele;
+		return true;
+	}
+
+
+  
 }
