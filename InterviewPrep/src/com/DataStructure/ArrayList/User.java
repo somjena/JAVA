@@ -5,6 +5,8 @@ public class User {
 		ArrayList<Integer> i = new ArrayList<Integer>();
 		System.out.println(i.add(10));
 		System.out.println(i.add(20));
+		int res = i.get(0);
+		System.out.println(res);
 		
 	}
 
