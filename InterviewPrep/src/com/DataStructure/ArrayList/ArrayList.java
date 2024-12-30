@@ -19,6 +19,14 @@ public class ArrayList <E>{
 		return true;
 	}
 
+	 //Increase Method
+		private void increase() {
+			Object[]temp = new Object[a.length/2];
+			System.arraycopy(a, 0, temp, 0, a.length);
+			a=temp;
+			
+		}
+		
 
   
 }
