@@ -40,7 +40,13 @@ public class ArrayList <E>{
 			pos--;
 			a[pos]=null;
 			return true;
-			
+		}
+	//get method
+		public E get(int index) {
+			if(index<=-1||index>=size()) {
+				throw new IndexOutOfBoundsException();
+			}
+			return (E) a[index];
 		}
 
 }
