@@ -9,22 +9,21 @@ public class ArrayList <E>{
 		a=new Object [10];
 		pos=0;
 	}
-	
-	
-	
 	//add Method
 	public boolean add(E ele) {
 		if(pos>=a.length)increase();
 		a[pos++]=ele;
 		return true;
 	}
-
 	 //Increase Method
 		private void increase() {
 			Object[]temp = new Object[a.length/2];
 			System.arraycopy(a, 0, temp, 0, a.length);
-			a=temp;
-			
+			a=temp;	
+	}
+	//isEmpty Method 
+		public boolean isEmpty() {
+			return pos==0;
 		}
 		
 
