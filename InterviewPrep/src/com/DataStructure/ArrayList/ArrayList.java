@@ -62,5 +62,12 @@ public class ArrayList <E>{
 			}
 			return (E) a[index];
 		}
+		
+		//Display Method
+		public void display() {
+			for(int i=0;i<a.length;i++) {
+				System.out.println(a[i]);
+			}
+		}
 
 }
