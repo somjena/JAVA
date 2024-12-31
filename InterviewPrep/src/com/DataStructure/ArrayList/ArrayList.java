@@ -15,6 +15,16 @@ public class ArrayList <E>{
 		a[pos++]=ele;
 		return true;
 	}
+	public boolean add(E ele,int index) {
+		if(index<=-1||index>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(pos>=a.length)increase();
+		for(int i =size()-1;i>=index;i--) {
+			
+		}
+		
+	}
 	 //Increase Method
 		private void increase() {
 			Object[]temp = new Object[a.length/2];
