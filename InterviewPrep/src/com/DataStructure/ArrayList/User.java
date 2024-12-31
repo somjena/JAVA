@@ -8,6 +8,7 @@ public class User {
 		//int res = i.get(0);
 		//System.out.println(res);
 		System.out.println(i.add(30, 1));
+		i.Remove(1);
 	
 		for (int a = 0; a <i.size(); a++) {
 		    if (!i.isEmpty()) {
