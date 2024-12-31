@@ -65,7 +65,7 @@ public class ArrayList <E>{
 		
 		//Display Method
 		public void display() {
-			for(int i=0;i<a.length;i++) {
+			for(int i=0;i<size();i++) {
 				System.out.println(a[i]);
 			}
 		}
