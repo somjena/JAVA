@@ -21,10 +21,13 @@ public class ArrayList <E>{
 		}
 		if(pos>=a.length)increase();
 		for(int i =size()-1;i>=index;i--) {
+			a[i+1]=a[i];
+		}
+		a[index]=ele;
+		pos++;
+		return true;
 			
 		}
-		
-	}
 	 //Increase Method
 		private void increase() {
 			Object[]temp = new Object[a.length/2];
