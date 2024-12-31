@@ -8,10 +8,12 @@ public class User {
 		System.out.println(l.add(20));
 		System.out.println(l.add(30));
 		System.out.println(l.add(40));
-		
-		
 		System.out.println(l.size());
 		System.out.println(l.isEmpty());
+		
+		int res =l.get(3);
+		System.out.println(res);
+	
 
 	}
 
