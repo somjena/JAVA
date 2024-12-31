@@ -15,6 +15,7 @@ public class ArrayList <E>{
 		a[pos++]=ele;
 		return true;
 	}
+	//OverLoad Add Method
 	public boolean add(E ele,int index) {
 		if(index<=-1||index>=size()) {
 			throw new IndexOutOfBoundsException();
