@@ -31,6 +31,16 @@ public class LinkedList <E>{
 	public boolean isEmpty() {
 		return count==0;
 	}
-	
+	//get Method
+	public E get(int index) {
+		if(index<=-1||index>=size()) {
+			return null;
+		}
+		Node curr=first;
+		for(int i=0;i<index;i++) {
+			curr=curr.next;
+		}
+		return (E)curr.ele;
+	}
 
 }
