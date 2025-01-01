@@ -3,8 +3,8 @@ package com.OneDArray;
 public class SumofEven_Odd {
 
 	public static void main(String[] args) {
-		int eSum=0;
-		int oSum=0;
+		int eSum=0;//int Variable Which store the Sum of even element
+		int oSum=0;//int Variable which stire the sum of odd Number
 		int []num= {1,2,3,4,5,6};
 		
 		for(int i =0;i<num.length;i++) {
