@@ -20,6 +20,7 @@ public class SumofeachelementUptoSingleDigit {
 
             a[i] = n; // Update array with the single-digit result
         }
+        
 
         // Print the updated array
         for (int n : a) {
