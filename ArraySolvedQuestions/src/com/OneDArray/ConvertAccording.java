@@ -1,7 +1,6 @@
 package com.OneDArray;
 //Q.24
 public class ConvertAccording {
-
 	public static void main(String[] args) {
 		int []a= {0,2,-1,0,2,-1,3};
 		
