@@ -4,7 +4,7 @@ public class IndexValueOfGivenElement {
 
 	public static void main(String[] args) {
 		int []a = {1,2,9,3,9,4,9,6,7,8};
-		int target=9;
+		int target=9;//target or the Searching Element
 		int lastindex=-1;
 		
 		for(int i =0;i<a.length;i++) {
