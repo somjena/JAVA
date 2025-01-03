@@ -6,11 +6,11 @@ interface Animal{//Animal Interface
 class Dog implements Animal{// Dog Class
 
 	@Override
-	public void makeSound() {
+	public void makeSound() {// Abstract Method
 		System.out.println("Bowwww.... Boww......");
 		
 	}
-	void jump() {
+	void jump() {// Individual Method of Dog Class 
 		System.out.println("Jump......");
 	}
 	
