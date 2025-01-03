@@ -3,7 +3,7 @@ package com.ArrayPrograms;
 interface Animal{//Animal Interface
 	void makeSound();
 }
-class Dog implements Animal{
+class Dog implements Animal{// Dog Class
 
 	@Override
 	public void makeSound() {
