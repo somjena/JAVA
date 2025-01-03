@@ -7,7 +7,7 @@ public class HighestNumber {
 		int highest =a[0];
 		
 		for(int i =1;i<a.length;i++) {
-			if(a[i]>highest) {
+			if(a[i]>highest) {// condition
 				highest=a[i];
 			}
 			
