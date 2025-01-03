@@ -32,7 +32,7 @@ public class AnimalDriver {
 		n[1]=new Cat();
 		n[2]=new Dog();
 		n[3]=new Cat();
-		for(Animal a:n) {
+		for(Animal a:n) {// For Each Loop
 			a.makeSound();
 			if(a instanceof Dog) {
 				 Dog map=(Dog)a;
