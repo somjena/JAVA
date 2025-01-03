@@ -1,6 +1,6 @@
 package com.ArrayPrograms;
 
-interface Animal{
+interface Animal{//Animal Interface
 	void makeSound();
 }
 class Dog implements Animal{
