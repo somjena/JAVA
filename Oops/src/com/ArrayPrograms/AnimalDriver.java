@@ -18,7 +18,7 @@ class Dog implements Animal{// Dog Class
 class Cat implements Animal{
 
 	@Override
-	public void makeSound() {
+	public void makeSound() {//Abstract Method
 		System.out.println("Meoowww........");
 		
 	}
