@@ -1,6 +1,6 @@
 package com.overloading;
 class CustomerSupport{
-	void HandleRequest(String query) {
+	void HandleRequest(String query) {// Handle Request Method
 		 System.out.println("Handling a general query: " + query);
 	}
 	void HandleRequest(String query,int orderId) {
