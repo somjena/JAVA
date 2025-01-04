@@ -1,12 +1,5 @@
 package com.constructor;
-class A{
-	int a;
-	int b;
-	A(int a,int b){// constructor
-		this.a =a;
-		this.b = b;
-	}
-}
+
 public class Constructor {
 	public static void main(String[] args) {
 		A a1 = new A(10,20);
