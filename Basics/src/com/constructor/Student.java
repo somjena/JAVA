@@ -1,7 +1,6 @@
 package com.constructor;
 
 public class Student {
-
     String name;
     int age;
 
