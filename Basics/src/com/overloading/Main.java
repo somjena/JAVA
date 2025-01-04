@@ -1,13 +1,13 @@
 package com.overloading;
 class CustomerSupport{
-	void HandleRequest(String query) {// Handle Request Method
+	void HandleRequest(String query) {// Handle Request Method 1
 		 System.out.println("Handling a general query: " + query);
 	}
-	void HandleRequest(String query,int orderId) {// Handle Request Method
+	void HandleRequest(String query,int orderId) {// Overload  Method 2
 		System.out.println("Processing return for order: " + orderId + ". Query: " + query);
 		
 	}
-	void HandleRequest(String query,String product,String issue) {
+	void HandleRequest(String query,String product,String issue) {// Overload Method 3
 		 System.out.println("Providing tech support for: " + product + ". Issue: " + issue);
 	}
 }
