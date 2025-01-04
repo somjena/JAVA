@@ -18,8 +18,6 @@ public class Student {
     public static void main(String[] args) {
      
         Student student1 = new Student("Soumitra Jena", 24);
-
-       
         student1.displayInfo();
     }
 }
