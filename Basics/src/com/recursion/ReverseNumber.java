@@ -3,7 +3,7 @@ import java.util.*;
 public class ReverseNumber {
 	private static int rev ;
 	
-	public static int Reverse(int n) {
+	public static int Reverse(int n) {//Reverse method
 		if(n==0) return rev;
 		rev = rev*10+n%10;
 		return Reverse(n/=10);
