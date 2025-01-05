@@ -21,7 +21,7 @@ public class AmStrongNumber {
 			count++;
 		}
 		
-		int res = AmStrong(RealNum);
+		int res = AmStrong(RealNum);// Return the Values After the Recursive Call 
 		if(res==Temp) {
 			System.out.println(Temp + " Is A AmStrong Number");
 		}else {
