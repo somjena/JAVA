@@ -5,7 +5,7 @@ public class AmStrongNumber {
 	
 	public static int AmStrong(int n) {
 		if(n==0)return 0;
-		return (int)Math.pow(n%10, count)+AmStrong(n/10);
+		return (int)Math.pow(n%10, count)+AmStrong(n/10);//recursive Call to Amstrong();
 	}
 	
 	
