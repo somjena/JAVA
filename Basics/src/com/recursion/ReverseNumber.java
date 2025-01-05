@@ -6,7 +6,7 @@ public class ReverseNumber {
 	public static int Reverse(int n) {//Reverse method
 		if(n==0) return rev;
 		rev = rev*10+n%10;
-		return Reverse(n/=10);
+		return Reverse(n/=10);// method call by itself
 	}
 
 	public static void main(String[] args) {
