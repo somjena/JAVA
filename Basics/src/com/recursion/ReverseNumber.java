@@ -13,7 +13,7 @@ public class ReverseNumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter The Number :-");
 		int n = sc.nextInt();
-		System.out.println(Reverse(n));
+		System.out.println(Reverse(n));// Return Number Will Print
 		
 	
 	}
