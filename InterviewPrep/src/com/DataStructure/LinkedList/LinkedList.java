@@ -42,5 +42,13 @@ public class LinkedList <E>{
 		}
 		return (E)curr.ele;
 	}
+	//display Method
+	public void display() {
+		Node curr=first;
+		while(curr!=null) {
+			System.out.println(curr.ele);
+			curr=curr.next;
+		}
+	}
 
 }
