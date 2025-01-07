@@ -5,8 +5,8 @@ public class User {
 		ArrayList<Integer> i = new ArrayList<Integer>();
 		i.add(10);
 		i.add(20);
-		//int res = i.get(0);
-		//System.out.println(res);
+		int res = i.get(0);
+		System.out.println(res);
 		i.add(30, 1);
 		//i.Remove(1);
 		
