@@ -9,14 +9,17 @@ public class User {
 		//System.out.println(res);
 		i.add(30, 1);
 		//i.Remove(1);
-		i.display();
+		
 	
 		/*for (int a = 0; a <i.size(); a++) {
 		    if (!i.isEmpty()) {
 		        System.out.println(i.get(a));
 		    }
 		}*/
-		
+	
+		i.add(50);
+		i.add(60);
+		i.display();
 
 	}
 
