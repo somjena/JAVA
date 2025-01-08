@@ -1,6 +1,7 @@
 package com.Stack.Emp;
 
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class StackStore {
@@ -16,10 +17,11 @@ public class StackStore {
 		s1.push(e1);
 		s1.push(e2);
 		s1.push(e3);
-		while(!s1.isEmpty()) {
-		System.out.println(s1.pop());
+           Iterator<Emp> i =s1.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
 		}
-		System.out.println(s1.isEmpty());
+		//System.out.println(s1.isEmpty());
 		//System.out.println(s1.peek());--> Exception Because When there is No Element or Object the Stack will Throw Exception
 	}
 
