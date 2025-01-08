@@ -1,6 +1,7 @@
 package com.List.Object;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class StoreObjects {
@@ -13,6 +14,11 @@ public class StoreObjects {
 		l.add(7.5);
 		l.add(201245789L);
 		System.out.println(l);
+		
+		Iterator itr=l.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 		
 
