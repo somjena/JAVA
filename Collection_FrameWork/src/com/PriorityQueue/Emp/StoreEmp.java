@@ -1,5 +1,6 @@
 package com.PriorityQueue.Emp;
 
+import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -21,10 +22,14 @@ public class StoreEmp {
 		
 		
 		
+        Iterator<Emp> i =q.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}      
 		//System.out.println(q.peek());
-		while(!q.isEmpty()) {
+		/*while(!q.isEmpty()) {
 			System.out.println(q.poll());
-		}
+		}*/
 
 	}
 
