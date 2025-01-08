@@ -1,5 +1,6 @@
 package com.List.NumberList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -13,6 +14,14 @@ public class NumbersList {
 		l.add(50);
 		l.add(30);
 		l.add(40);
+		
+		Iterator itr=l.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+		
+		
 		System.out.println(l.getFirst());
 		System.out.println(l.getLast());
 		System.out.println("Before Sort-->");
