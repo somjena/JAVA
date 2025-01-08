@@ -25,7 +25,9 @@ public class StoreEmp {
         Iterator<Emp> i =q.iterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
-		}      
+		}    
+		
+		
 		//System.out.println(q.peek());
 		/*while(!q.isEmpty()) {
 			System.out.println(q.poll());
