@@ -1,7 +1,10 @@
 package com.Set.TreeSet.Emp;
 
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
+
+import com.Map.HashMap.Emp.Emp;
 
 public class AddEmp {
 
@@ -15,6 +18,10 @@ public class AddEmp {
 		Set s = new TreeSet();
 		s.add(e1);
 		s.add(e2);
+		Iterator itr = s.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 		
 		System.out.println(s);
