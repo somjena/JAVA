@@ -1,6 +1,7 @@
 package com.List.Student;
 
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -22,6 +23,10 @@ public class StudentList {
 		Collections.sort(l, new NameComparator());
 		System.out.println(l);
 		System.out.println(l.get(0).getClass().getSimpleName());
+		Iterator itr=l.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 
 	}
 
