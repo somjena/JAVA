@@ -2,6 +2,7 @@ package com.List.Emplist;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class EmpList {
@@ -23,6 +24,10 @@ public class EmpList {
 		//Collections.sort(l, new DescCompare());
 		System.out.println("After Sorting");
 		System.out.println(l);
+		Iterator itr=l.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 		
 		
