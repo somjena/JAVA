@@ -33,7 +33,9 @@ public class BinarySearchTree {
 		if(key<prev.key)prev.left=new Node(key);
 		else if(key>prev.key)prev.right=new Node(key);
 		count++;
-		
+	}
+	public int size() {
+		return count;
 	}
 	
 
