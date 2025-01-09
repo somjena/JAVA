@@ -25,6 +25,9 @@ public class BinarySearchTree {
 				prev=curr;
 				curr=curr.right;
 			}
+			else {
+				return;
+			}
 			
 		}
 	}
