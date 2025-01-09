@@ -7,11 +7,11 @@ public class BinarySearchTree {
 	
 	
 	//add Method 
-	public boolean add(int key) {
+	public void add(int key) {
 		if(root==null) {
 			root =new Node(key);
 			count++;
-			return true;
+			return ;
 		}
 		Node curr=root;
 		Node prev=null;
@@ -20,6 +20,10 @@ public class BinarySearchTree {
 			if(key<curr.key) {
 				prev=curr;
 				curr=curr.left;
+			}
+			else if(key>curr.key) {
+				prev=curr;
+				curr=curr.right;
 			}
 			
 		}
