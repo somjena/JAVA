@@ -6,6 +6,8 @@ public class User {
 		BinarySearchTree bst = new BinarySearchTree();
 		bst.add(1);
 		bst.add(2);
+		System.out.println(bst.size());
+		
 		
 
 	}
