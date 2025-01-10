@@ -39,6 +39,7 @@ public class BinarySearchTree {
 	public int size() {
 		return count;
 	}
+	//is Empty Method
 	public boolean isEmpty() {
 		return count==0;
 	}
