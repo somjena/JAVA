@@ -20,6 +20,7 @@ public class LinkedList {
 		count++;
 		
 	}
+	//Size Method
 	public int Size() {
 		return count;
 	}
