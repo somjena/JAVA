@@ -8,7 +8,7 @@ public class LinkedList <E>{
 	
 	
 	//push method
-	public void push(Object o) {
+	public void push(E o) {
 		if(first==null) {
 			first=new Node(o);
 			count++;
