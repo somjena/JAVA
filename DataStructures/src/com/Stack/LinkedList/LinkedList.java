@@ -26,7 +26,7 @@ public class LinkedList {
 	}
 	
 	
-	
+	//peek method
 	public Object peek() {
 		if(first==null) {
 			throw new EmptyStackException();
