@@ -8,7 +8,7 @@ public class StackImplementation {
 		l.push(20);
 		l.push(30);
 		l.push(40);
-		l.get();
+		int  i =l.pop();
 		System.out.println("--------------------------Before-----------------------------");
 		System.out.println(l.pop());
 		System.out.println("---------------------------pop--------------------------------");
