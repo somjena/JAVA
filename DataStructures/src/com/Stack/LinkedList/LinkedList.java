@@ -2,7 +2,7 @@ package com.Stack.LinkedList;
 
 import java.util.EmptyStackException;
 
-public class LinkedList {
+public class LinkedList <E>{
 	private Node first;
 	private int count;
 	
