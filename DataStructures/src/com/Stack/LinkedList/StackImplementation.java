@@ -3,7 +3,7 @@ package com.Stack.LinkedList;
 public class StackImplementation {
 
 	public static void main(String[] args) {
-		LinkedList l =new LinkedList();
+		LinkedList<Integer> l =new LinkedList<Integer>();
 		l.push(10);
 		l.push(20);
 		l.push(30);
