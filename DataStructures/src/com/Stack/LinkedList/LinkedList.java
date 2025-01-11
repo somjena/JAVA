@@ -45,6 +45,7 @@ public class LinkedList {
 		return temp.ele;
 		
 	}
+	//get method
 	public void get() {
 		Node curr=first;
 		while (curr!=null) {
