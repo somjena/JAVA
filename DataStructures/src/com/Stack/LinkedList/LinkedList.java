@@ -34,7 +34,7 @@ public class LinkedList {
 		return first.ele;
 	}
 	
-	
+	//pop method
 	public Object pop() {
 		if(first==null) {
 			throw new EmptyStackException();
