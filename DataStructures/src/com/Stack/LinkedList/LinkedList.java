@@ -45,6 +45,7 @@ public class LinkedList <E>{
 		return (E) temp.ele;
 		
 	}
+	
 	//get method
 	public void get() {
 		Node curr=first;
