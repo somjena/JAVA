@@ -35,14 +35,14 @@ public class LinkedList <E>{
 	}
 	
 	//pop method
-	public Object pop() {
+	public E pop() {
 		if(first==null) {
 			throw new EmptyStackException();
 		}
 		Node temp = first;
 		first=first.next;
 		count--;
-		return(E) temp.ele;
+		return (E) temp.ele;
 		
 	}
 	//get method
