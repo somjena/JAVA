@@ -1,10 +1,10 @@
 package com.overloading;
 
 public class TestOverloading {
-	static int add(int i , int j) {
+	static int add(int i , int j) {//With 2 argument
 		return i+j;
 	}
-	static int add(int j,int k,int l) {
+	static int add(int j,int k,int l) {//With 3 Arg
 		return j+k+l;
 	}
 
