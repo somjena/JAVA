@@ -8,14 +8,9 @@ public class Emp implements Comparable<Emp>{
 		this.name=name;
 		this.age=age;
 	}
-	
-	
 	public String toString() {
 		return "Name ="+name+" age = "+age;
 	}
-
-	
-
 	@Override
 	public int compareTo(Emp o) {
 		// TODO Auto-generated method stub
