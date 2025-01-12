@@ -1,7 +1,7 @@
 package com.overloading;
 class A{
 	
-	void m1(int i) {
+	void m1(int i) { // With One Arg
 			System.out.println("Int Arg Method");
 		
 	}
