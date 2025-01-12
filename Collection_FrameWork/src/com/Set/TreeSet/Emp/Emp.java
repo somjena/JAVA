@@ -1,6 +1,6 @@
 package com.Set.TreeSet.Emp;
 
-public class Emp implements Comparable{
+public class Emp implements Comparable<Emp>{
 	String name;
 	int age;
 	
@@ -14,10 +14,12 @@ public class Emp implements Comparable{
 		return "Name ="+name+" age = "+age;
 	}
 
+	
+
 	@Override
-	public int compareTo(Object o) {
-	Emp e = (Emp)o;
-		return e.age-this.age;
+	public int compareTo(Emp o) {
+		// TODO Auto-generated method stub
+		return o.age-this.age;
 	}
 
 }
