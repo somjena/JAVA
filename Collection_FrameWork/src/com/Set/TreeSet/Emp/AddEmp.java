@@ -15,7 +15,7 @@ public class AddEmp {
 		
 		
 		
-		Set s = new TreeSet();
+		Set<Emp> s = new TreeSet<Emp>();
 		s.add(e1);
 		s.add(e2);
 		Iterator itr = s.iterator();
