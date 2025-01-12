@@ -5,7 +5,7 @@ class A{
 			System.out.println("Int Arg Method");
 		
 	}
-	void m1() {
+	void m1() {// With No Argument
 		System.out.println("No Arg Method");
 		
 	}
