@@ -13,17 +13,17 @@ class Student {
     }
 
    
-    public void displayDetails(String name) {
+    public void displayDetails(String name) {// Overload Method with One Argument
         System.out.println("Name: " + name);
     }
 
   
-    public void displayDetails(String name, int age) {
+    public void displayDetails(String name, int age) {//Overload Method with Two Argument
         System.out.println("Name: " + name + ", Age: " + age);
     }
 
     
-    public void displayDetails(String name, int age, String grade) {
+    public void displayDetails(String name, int age, String grade) {//Overload Method With Three Argument
         System.out.println("Name: " + name + ", Age: " + age + ", Grade: " + grade);
     }
 }
