@@ -10,6 +10,13 @@ public class StudentDriver {
         student.displayDetails();
 
        
+        student.setName("Bob");
+        student.setAge(150); // Invalid age, setter handles validation
+        student.setStudentId("S102");
+
+        // Display updated details
+        System.out.println("\nUpdated Student Details:");
+        student.displayDetails();
 
 	}
 
