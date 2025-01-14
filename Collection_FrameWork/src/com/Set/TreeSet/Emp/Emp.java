@@ -12,8 +12,7 @@ public class Emp implements Comparable<Emp>{
 		return "Name ="+name+" age = "+age;
 	}
 	@Override
-	public int compareTo(Emp o) {
-		// TODO Auto-generated method stub
+	public int compareTo(Emp o) {//Comparable Class Methods
 		return o.age-this.age;
 	}
 
