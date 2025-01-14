@@ -48,8 +48,12 @@ public void setStudentId(String studentId) {
    this.studentId = studentId;
 }
 
-
-
+// Method to display student details
+public void displayDetails() {
+   System.out.println("Student Name: " + name);
+   System.out.println("Age: " + age);
+   System.out.println("Student ID: " + studentId);
+}
 
  
 }
