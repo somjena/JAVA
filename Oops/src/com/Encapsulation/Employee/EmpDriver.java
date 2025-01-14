@@ -6,6 +6,8 @@ public class EmpDriver {
 		Emp e1  =new Emp();
 		e1.setName("Soumitra");
 		System.out.println(e1.getName());
+		e1.setId(1);
+		System.out.println(e1.getId());
 	}
 
 }
