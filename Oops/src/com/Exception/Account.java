@@ -6,7 +6,7 @@ public class Account {
 	public Account(int bal) {
 		this.bal = bal;
 	}
-	public void withdraw(int amount) throws InsufficientBalException{
+	public void withdraw(int amount) throws InsufficientBalException{//Created Exception
 		if(amount>bal) {
 			throw new InsufficientBalException();
 			
