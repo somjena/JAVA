@@ -12,7 +12,7 @@ public class Test {
 		
 		try {
 			System.out.println(10/0);
-		} catch (Exception e) {
+		} catch (Exception e) {//Catch
 			
 			System.out.println("We can't Divide Any Number with Zero");
 		}
