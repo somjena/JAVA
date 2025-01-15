@@ -7,7 +7,6 @@ public class AccountDriver {
 		try {
 			a.withdraw(1000);//when we use the withdraw method a checked exception occured
 		} catch (InsufficientBalException e) {
-			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
 		}
 
