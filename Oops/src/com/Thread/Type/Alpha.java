@@ -10,7 +10,6 @@ public class Alpha implements Runnable{
 			try {
 				Thread.sleep(700);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			i++;
