@@ -5,7 +5,7 @@ class PrintNum extends Thread{
 		System.out.println("Created new Thread");
 		for(int i =1;i<=10;i++) {
 			System.out.println(i);
-			try{Thread.sleep(500);} catch(Exception e) {};
+			try{Thread.sleep(500);} catch(Exception e) {};//Thread Class Sleep Method
 		}
 		System.out.println();
 	}
