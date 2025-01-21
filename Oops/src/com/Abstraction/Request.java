@@ -28,6 +28,15 @@ class ICIC implements Payable{
 	}
 	
 }
+class BandhanBank implements Payable{
+
+	@Override
+	public void pay() {
+		System.out.println("Paid By Bandhan Bank");
+		
+	}
+	
+}
 class User {
 	static void Payment(Payable p) {
 		p.pay();
@@ -37,7 +46,9 @@ class User {
 public class Request {
 
 	public static void main(String[] args) {
-		User.Payment(new HDFC());
+		User.Payment(new SBI());
+		User.Payment(new ICIC());
+		User.Payment(new BandhanBank());
 
 	}
 
