@@ -19,7 +19,7 @@ public class Demo {
 	public static void main(String[] args) {
 		A a1 = new A();
 		a1.m1();//Method With No Arg
-		a1.m1(10);
+		a1.m1(10);// Method With One Argument
 		a1.m1(10, 20);
 
 	}
