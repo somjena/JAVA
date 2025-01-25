@@ -13,7 +13,8 @@ class Student{// Student class
 		return "name:-"+name+"\n"+"age:-"+age+"\n"+"dob:-"+dob;
 		
 	}
-	public boolean equals(Object o) {
+	@Override
+	public boolean equals(Object o) {// Object class equals() method
 		Student s =(Student)o;
 		return this.name.equals(s.name)&& this.age==s.age && this.dob==s.dob;
 	}
