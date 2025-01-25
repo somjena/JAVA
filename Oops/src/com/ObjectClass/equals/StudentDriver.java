@@ -1,5 +1,5 @@
 package com.ObjectClass.equals;
-class Student{
+class Student{// Student class
 	String name;
 	int age;
 	double dob;
