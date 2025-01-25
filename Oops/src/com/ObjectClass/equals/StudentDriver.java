@@ -22,7 +22,7 @@ class Student{// Student class
 public class StudentDriver {
 
 	public static void main(String[] args) {
-		Student s1= new Student("Som",22,22.24);
+		Student s1= new Student("Som",22,22.24);//Creating two Same Objects
 		Student s2= new Student("Som",22,22.24);
 		
 		System.out.println(s1);
