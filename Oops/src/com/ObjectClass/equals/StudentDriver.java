@@ -9,7 +9,7 @@ class Student{// Student class
 		this.dob=dob;
 	}
 	@Override
-	public String toString() {
+	public String toString() {//toString () Method to print in other calling class
 		return "name:-"+name+"\n"+"age:-"+age+"\n"+"dob:-"+dob;
 		
 	}
