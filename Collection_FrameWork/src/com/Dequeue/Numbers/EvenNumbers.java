@@ -17,7 +17,6 @@ public class EvenNumbers {
 		}
 		System.out.println(a.getFirst());
 		System.out.println(a.getLast());
-		
 	
 		Iterator<Integer> itr=a.iterator();
 		
