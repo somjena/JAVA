@@ -7,7 +7,7 @@ public class A {
 		this.i=i;
 		this.j=j;
 	}
-	
+	@Override
 	public String toString() {
 		return "i="+i+"j="+j;
 	}
