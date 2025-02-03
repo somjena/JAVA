@@ -13,8 +13,5 @@ public class OccuranceofEachWord {
 		List<String>l=Arrays.asList(str);
 		Map<Object,Long> m=l.stream().collect(Collectors.groupingBy(c->c,Collectors.counting()));
 		m.forEach((c,i)->System.out.println(c+"="+i));;
-		
-
 	}
-
 }
