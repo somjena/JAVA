@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Romanizer {
 	public static void main(String[] args) {
-		System.out.println(convert(2041));
+		System.out.println(convert(154));
 	}
 
 	private static String convert(int num) {
