@@ -1,4 +1,4 @@
-package com.Dsa;
+package com.Dsa.ArrayList;
 
 public class ArrayList <E>{
 	private Object []a;
