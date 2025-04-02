@@ -44,5 +44,39 @@ public class LinkedList {
 		return true;
 		
 	}
+	//Remove Method
+	public boolean remove(int index) {
+		if(index<=-1||index>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(index==0) {
+			first=first.next;
+			count--;return true;
+		}
+		Node curr=first;                                                     
+		for(int i=0;i<index;i++) {
+			curr=curr.next;
+		}
+		curr.next=curr.next.next;
+		count--;
+		return true;
+		
+	}
+	//display Method
+	public void display() {
+		Node curr=first;
+		for(int i=0;i<size();i++) {
+			System.out.println(curr.o);
+			curr=curr.next;
+		}
+	}
+	//get Method
+	public Object get(int index) {
+		Node curr = first;
+		for(int i=0;i<index;i++) {
+			curr=curr.next;
+		}
+		return curr.o;
+	}
 
 }
