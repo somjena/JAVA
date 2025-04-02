@@ -6,8 +6,11 @@ public class LinkedListUser {
 		System.out.println(l.isEmpty());
 		l.add(12);
 		l.add(20);
-		System.out.println(l.isEmpty());
-		System.out.println(l.size());
+		//System.out.println(l.remove(0));
+		//System.out.println(l.remove(1));
+		l.display();
+		System.out.println(l.get(1));
+		
 	}
 
 }
