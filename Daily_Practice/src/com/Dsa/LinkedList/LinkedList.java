@@ -25,5 +25,24 @@ public class LinkedList {
 	public boolean isEmpty() {
 		return count==0;
 	}
+	//Add Overload Method 
+	public boolean add(int index ,Object ele) {
+		if(index<=-1|| index >=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		if(index==0) {
+			first=new Node(ele,first);
+			count++;
+			return true;
+		}
+		Node curr = first;
+		for(int i=0;i<index;i++) {
+			curr=curr.next;
+		}
+		curr.next=new Node(ele);
+		count++;
+		return true;
+		
+	}
 
 }
