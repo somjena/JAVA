@@ -10,7 +10,6 @@ public class Stack {
 	}
 	
 	//Add Method
-	
 	public boolean push (Object ele) {
 		if(pos>=a.length)increase();
 		a[pos++]=ele;
@@ -18,5 +17,9 @@ public class Stack {
 	}
 	public void increase() {
 		
+	}
+	
+	public int size() {
+		return pos;
 	}
 }
