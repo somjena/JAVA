@@ -31,7 +31,25 @@ public class Queue {
 	}
 	//poll method
 	public Object poll() {
-		
+		if(pos==0)return null;
+		Object temp = a[0];
+		Object []cons = new Object[a.length-1];
+		System.arraycopy(a, 1, cons, 0, a.length-1);
+		a=cons;
+		pos--;
+		return temp;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
