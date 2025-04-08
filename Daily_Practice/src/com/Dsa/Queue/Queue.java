@@ -24,5 +24,14 @@ public class Queue {
 	public int size() {
 		return pos;
 	}
+	//peek method
+	public Object peek() {
+		if(pos==0)return null;
+		return a[0];
+	}
+	//poll method
+	public Object poll() {
+		
+	}
 	
 }
