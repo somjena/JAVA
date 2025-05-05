@@ -36,10 +36,13 @@ public class LinkedList {
 			return true;
 		}
 		Node curr = first;
-		for(int i=0;i<index;i++) {
+		for(int i=0;i<index-1;i++) {
 			curr=curr.next;
+			System.out.println(curr.o);
 		}
-		curr.next=new Node(ele);
+		System.out.println("curr.next="+curr.next.o);
+		curr.next=new Node(ele,curr.next);
+		
 		count++;
 		return true;
 		
@@ -51,7 +54,8 @@ public class LinkedList {
 		}
 		if(index==0) {
 			first=first.next;
-			count--;return true;
+			count--;
+			return true;
 		}
 		Node curr=first;                                                     
 		for(int i=0;i<index;i++) {
@@ -66,7 +70,7 @@ public class LinkedList {
 	public void display() {
 		Node curr=first;
 		for(int i=0;i<size();i++) {
-			System.out.println(curr.o);
+			System.out.print(curr.o +" ");
 			curr=curr.next;
 		}
 	}
