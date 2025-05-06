@@ -44,7 +44,7 @@ public class LinkedList {
 			throw new IndexOutOfBoundsException();
 		}
 		Node curr =first;
-		for(int i=1;i<index;i++) {
+		for(int i=1;i<=index;i++) {
 			curr=curr.next;
 		}
 		return curr.o;
